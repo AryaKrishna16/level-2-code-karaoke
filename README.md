@@ -1,4 +1,7 @@
-![WhatsApp Image 2025-10-30 at 17 19 15_d2ce09d3](https://github.com/user-attachments/assets/0060828b-f7f8-4e5b-9982-ec2b764ce8e3)
+
+<img width="5400" height="2383" alt="Code Karaoke-min" src="https://github.com/user-attachments/assets/b93e02e6-6468-4a00-9a9e-a00bc0e4cb0f" />
+
+
 
 # level-2-code-karaoke
 Level 2 questions for code karaoke event, there are 2 questions write the program and test it with examples in those questions and upload in fork 
