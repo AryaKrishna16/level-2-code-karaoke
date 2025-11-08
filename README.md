@@ -25,8 +25,19 @@ Input: nums = [3,3], target = 6
 Output: [0,1]
 
 # CODE:
+nums = [2, 7, 11, 15]
+target = 9
+
+for i in range(len(nums)):
+    for j in range(i + 1, len(nums)):
+        if nums[i] + nums[j] == target:
+            print("Indices:", [i, j])
+            print("Numbers:", nums[i], "and", nums[j])
+            break
 
 # OUTPUT:
+<img width="1248" height="577" alt="Screenshot 2025-11-08 105557" src="https://github.com/user-attachments/assets/08a77ae8-79c2-40f5-bdfb-6a38d0b43b4e" />
+
 
 
 # Question 2:
@@ -49,5 +60,18 @@ Explanation: Reads 01 from right to left. Therefore it is not a palindrome.
 
 
 # CODE:
+x=121
+og=x
+sum=0
+while x>0:
+    rem=x%10
+    sum=sum*10+rem
+    x=x//10
+og=x
+if og ==sum:
+    print("true")
+else:
+    print("false")
 
 # OUTPUT:
+<img width="1350" height="404" alt="Screenshot 2025-11-08 104847" src="https://github.com/user-attachments/assets/2456db34-4d7a-4685-8526-54ef5f8011f0" />
